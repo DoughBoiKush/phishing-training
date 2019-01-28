@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Phishing Training</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/skeleton.css">
+  <link rel="stylesheet" href="../../css/custom.css">
+
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="../../js/including-templates.js"></script>
+  <!--script src="js/init.js"></script-->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+
+</head>
+<body onload="includeHTML()">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="header">
+    <a href="../../index.html" class="logo"><img class="logo" src="../../images/rakuten_global_brand_logo.png"/></a>
+    <div class="header-right">
+      <a href="#intro-phishing-test">Tips</a>
+      <a href="#phishing-test">Training</a>
+    </div>
+  </div>
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4 class="hero-heading">Phishing training.</h4>
+          <h5 class="hero-subheading">Try to detect non-legitimed emails.</h5>
+          <a class="button button-primary" href="#intro-phishing-test">Start!</a>
+        </div>
+        <div class="one-half column phones">
+          <img class="phone" src="../../images/phishing.png">
+          <!--img class="phone" src="images/phishing.png"-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="intro-phishing-test" class="section values">
+    <div class="container">
+      <h3 class="section-heading">Tips to detect phishing emails</h3>
+      <p class="section-description">
+        <ul>
+          <li>Check who are sending the email</li>
+          <li>Review attachments - NOT OPEN!</li>
+          <li>No trust on sense of urgency</li>
+          <li>Check links to unreconized sites or URLs</li>
+          <li>Poor spelling or grammar</li>
+      </p>
+    </div>
+    <!--div class="container">
+      <div class="row">
+        <div class="one-third column value">
+          <h2 class="value-multiplier">67%</h2>
+          <h5 class="value-heading">Purchase Increase</h5>
+          <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">90%</h2>
+          <h5 class="value-heading">Multi-device Users</h5>
+          <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">66%</h2>
+          <h5 class="value-heading">Sad Users</h5>
+          <p class="value-description">Percentage of users that are frustrated with page load times.</p>
+        </div>
+      </div>
+    </div-->
+  </div>
+
+  <div id="phishing-test"class="section-email get-help">
+    <div class="container">
+      <div class="row">
+        <div class="email">
+          <div w3-include-html="phishing1.html"></div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="email">
+          <div w3-include-html="phishing2.html"></div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="email">
+          <div w3-include-html="phishing3.html"></div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="email">
+          <div w3-include-html="phishing4.html"></div>
+        </div>
+      </div>
+      <div class="row ">
+        <div id="email5" class="email">
+          <div w3-include-html="phishing5.html"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-submit">
+    <div class="container">
+      <div class="row">
+        <button onclick="checkAnswers();" class="button-submit">SUBMIT</button><span id="result-value"></span>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
